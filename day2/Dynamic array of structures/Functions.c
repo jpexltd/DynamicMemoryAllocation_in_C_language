@@ -4,7 +4,7 @@ void ReadStudent(tcard *p)
 {
 	printf("\n\tName: ");
 	fflush(stdin);
-	fgets(p->name, MAX_NUM_CHARAC,stdin); // (*p).name
+	fgets(p->name, MAX_NUM_CHARAC, stdin); // (*p).name
 	printf("\n\tMark: ");
 	scanf("%f", &(*p).mark); // &p->mark
 }

@@ -32,7 +32,7 @@ int main()
 
 	DisplayStudents(p, n_stud);
 
-	free(p);
+	
 	MemoryManager_DumpMemoryLeaks();
 	system("pause");
 	return 0;

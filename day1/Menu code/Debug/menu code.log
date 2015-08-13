@@ -1,0 +1,20 @@
+﻿Build started 8/13/2015 11:55:16 AM.
+     1>Project "C:\Users\WONSEOB\Desktop\DynamicMemoryAllocation_in_C_language\day1\Menu code\menu code.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Functions.c Main.c
+         Main.c
+     1>c:\users\wonseob\desktop\dynamicmemoryallocation_in_c_language\day1\menu code\Header Menu.h(1): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+         Functions.c
+     1>c:\users\wonseob\desktop\dynamicmemoryallocation_in_c_language\day1\menu code\Header Menu.h(1): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\WONSEOB\Desktop\DynamicMemoryAllocation_in_C_language\day1\Menu code\Debug\menu code.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\WONSEOB\Desktop\DynamicMemoryAllocation_in_C_language\day1\Menu code\Debug\menu code.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\WONSEOB\Desktop\DynamicMemoryAllocation_in_C_language\day1\Menu code\Debug\menu code.lib" /MACHINE:X86 Debug\Functions.obj
+         Debug\Main.obj
+         menu code.vcxproj -> C:\Users\WONSEOB\Desktop\DynamicMemoryAllocation_in_C_language\day1\Menu code\Debug\menu code.exe
+     1>Done Building Project "C:\Users\WONSEOB\Desktop\DynamicMemoryAllocation_in_C_language\day1\Menu code\menu code.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
