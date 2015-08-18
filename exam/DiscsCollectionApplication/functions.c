@@ -42,7 +42,7 @@ char ** ReadDisc(tDisc *pDisc)
 	pDisc->ppSongs is not pointing to a valid address*/
 
 	pDisc->ppSong = (char **)malloc(pDisc->numSongs*sizeof(char *));
-	return pDisc->ppSong;
+	return pDisc->ppSong; //?? need to return?
 }
 
 int AddDisc(tDisc **ppDisc, int n)
